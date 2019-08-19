@@ -12,6 +12,7 @@
     "@types/react-native-vector-icons": "^6.4.1",
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera.git",
     "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "@types/react": "16.9.2",
     "@types/react-native": "0.60.6",
     "@types/react-test-renderer": "16.9.0",
+    "@types/react-native-vector-icons": "^6.4.1",
     "babel-jest": "24.9.0",
     "eslint": "6.2.0",
     "jest": "24.9.0",
