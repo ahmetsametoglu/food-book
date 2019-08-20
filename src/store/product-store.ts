@@ -19,7 +19,7 @@ type ProductPayloadType = {
   lastScannedProduct?: Product;
 };
 
-export class ProductAction {
+export class ProductService {
   products: CollectionReference;
 
   constructor(private dispatch: Dispatch<ProductActionType>) {

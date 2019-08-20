@@ -15,7 +15,7 @@ type AppPayloadType = {
   loadingText?: string;
 };
 
-export class AppAction {
+export class AppService {
   constructor(private dispatch: Dispatch<AppActionType>) {}
 
   public showLoading(text?: string) {

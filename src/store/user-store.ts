@@ -1,5 +1,5 @@
-import { ActionType } from './action-types';
-import { Reducer, Dispatch } from 'react';
+import {ActionType} from './action-types';
+import {Reducer, Dispatch} from 'react';
 
 export type UserStateType = {};
 
@@ -10,7 +10,7 @@ export type UserActionType = {
 
 type UserPayloadType = {};
 
-export class UserAction {
+export class UserService {
   constructor(private dispatch: Dispatch<UserActionType>) {}
 }
 
@@ -24,6 +24,6 @@ export const UserReducer: Reducer<UserStateType, UserActionType> = (
 
   switch (action.type) {
     default:
-      return { ...state };
+      return {...state};
   }
 };

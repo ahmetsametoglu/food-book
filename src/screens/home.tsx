@@ -10,7 +10,7 @@ const Home = () => {
   console.log('[Home Screen]: init');
   const [openScanner, setOpenScanner] = useState(false);
 
-  const {actions, store} = useReduxContextValue();
+  const {services, store} = useReduxContextValue();
   const {productState} = store;
   console.log('productState:', productState);
 
@@ -20,7 +20,7 @@ const Home = () => {
 
   const handleAddProduct = () => {
     if (productState.lastScannedBarcode) {
-      actions.productAction.addProduct({
+      services.productService.addProduct({
         barcode: productState.lastScannedBarcode,
         ingredientImageURL: 'ingredientImageURL',
         productImageURL: 'productImageURL',
@@ -32,14 +32,14 @@ const Home = () => {
     setOpenScanner(false);
     console.log('barcode:', code);
     if (!!code) {
-      actions.appAction.showLoading('product searching...');
-      actions.productAction
+      services.appService.showLoading('product searching...');
+      services.productService
         .getProductWithBarcode(code)
         .then(_ => {
-          actions.appAction.hideLoading();
+          services.appService.hideLoading();
         })
         .catch(_ => {
-          actions.appAction.hideLoading();
+          services.appService.hideLoading();
         });
     }
   };
