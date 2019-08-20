@@ -1,4 +1,4 @@
-package com.food_book;
+package com.halal_food_book;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "food_book";
+        return "halal_food_book";
     }
 }

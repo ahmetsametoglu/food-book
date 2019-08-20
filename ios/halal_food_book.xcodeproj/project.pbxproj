@@ -6,7 +6,7 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* food_bookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* food_bookTests.m */; };
+		00E356F31AD99517003FC87E /* halal_food_bookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* halal_food_bookTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -14,23 +14,23 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* food_bookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* food_bookTests.m */; };
-		8DABA6B2FEF24332958E3FC1 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58F34139526140B5AD37E08C /* AntDesign.ttf */; };
-		62D23CDCD90941159D593607 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB585CE351B042B49243CCA5 /* Entypo.ttf */; };
-		1060EA66C01F4EC2ADCFE664 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01066D02D2DD4C5F9B3AD7FA /* EvilIcons.ttf */; };
-		970BB00B22E14193AF34021C /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 757A408D4C064C9A8FCB4498 /* Feather.ttf */; };
-		F42E17B5D9404087ABE29366 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FBE12F803F4AEEB841CEAE /* FontAwesome.ttf */; };
-		55567E3BA6CC47C985929DAA /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D19E0F51237475EB6E5E85D /* FontAwesome5_Brands.ttf */; };
-		D8EFE5217A87498B9E61AE5F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48BF47B0166B44F89FD5B2C9 /* FontAwesome5_Regular.ttf */; };
-		CD1B339D808C4AB4BAA37215 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DD26AE84341481B88551AAB /* FontAwesome5_Solid.ttf */; };
-		81189C688E344AEB841E5FB3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D9E7BD47A484C36AF5782A1 /* Fontisto.ttf */; };
-		7D908DC546BA4508AC0C03C9 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47B2BD145D1B480D91411EEB /* Foundation.ttf */; };
-		160E920CCBE04069B4EF4566 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC83A5E1E54547AC9DE9533D /* Ionicons.ttf */; };
-		05184BD7169F4022A04805B8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9728E996D1D64F4BAF254649 /* MaterialCommunityIcons.ttf */; };
-		D11121C9BB184ADB8D11C57A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC0DBE6B93C4A2AA4E01F7C /* MaterialIcons.ttf */; };
-		C77980BE15374B3AA4DB793D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62DCDD7385C045D4A7260E22 /* Octicons.ttf */; };
-		FAE0AF673404427A86C7D153 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD945F247670444290452CCC /* SimpleLineIcons.ttf */; };
-		FBBC172A89594C9CBC85B54E /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938E478815F94485B960CB81 /* Zocial.ttf */; };
+		2DCD954D1E0B4F2C00145EB5 /* halal_food_bookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* halal_food_bookTests.m */; };
+		FB45998BF640498B81A3FBBD /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43645329654D4CECB68B4155 /* AntDesign.ttf */; };
+		01122A1B53084F1EB2A5AABF /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F4B375B70A14C25B915E5D3 /* Entypo.ttf */; };
+		96301B20C29F437CB9B2499D /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2F7C086CD1C46C9A9B7F82D /* EvilIcons.ttf */; };
+		7830AABA81DF4AA99BEEB4F0 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C33A842741A145D58892E950 /* Feather.ttf */; };
+		6CD3BE8321B64F93AD4A0B34 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C094BA9B93EA40FFBBAC6462 /* FontAwesome.ttf */; };
+		E442D8EAB6C04CBAA3064168 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50C081640C174022BBA8C116 /* FontAwesome5_Brands.ttf */; };
+		B64213F996554A19B7C1084C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05C8823AFFA949CFB1F8AD43 /* FontAwesome5_Regular.ttf */; };
+		DE04A0AF354F435D9BFCC0F6 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A904E6F62BD6442BABCBDD56 /* FontAwesome5_Solid.ttf */; };
+		8E65F75927094C4C8CD50577 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 258D0CA2D7894469B6222842 /* Fontisto.ttf */; };
+		C40AD9E64FF84708A9F98C0E /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D3683B9DDF44358E07F62E /* Foundation.ttf */; };
+		5F3F798A4EBD4C6C87FE854E /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DBF0D1634549EE92C4D06F /* Ionicons.ttf */; };
+		E9C4080CC1B747E1BACED27A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FA768CC5C45668916562B /* MaterialCommunityIcons.ttf */; };
+		85FBDC2E8CEF4781BEEC82C7 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D914136F3BE4295AAF4E125 /* MaterialIcons.ttf */; };
+		71857D73936C4EEA8C249A4B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB1217E987074AF29BAE93C2 /* Octicons.ttf */; };
+		DDB9FD99A21743D883473DDE /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84974642D37B4A4F91F5615E /* SimpleLineIcons.ttf */; };
+		7C5AFDC879854D9F958BA254 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED2CA0D210844B02A1AF9AC3 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,49 +39,49 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = food_book;
+			remoteInfo = halal_food_book;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "food_book-tvOS";
+			remoteInfo = "halal_food_book-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* food_bookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = food_bookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* halal_food_bookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = halal_food_bookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* food_bookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = food_bookTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* food_book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = food_book.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = food_book/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = food_book/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* halal_food_bookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = halal_food_bookTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* halal_food_book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = halal_food_book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = halal_food_book/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = halal_food_book/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = food_book/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = food_book/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = food_book/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* food_book-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food_book-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* food_book-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food_book-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = halal_food_book/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = halal_food_book/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = halal_food_book/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* halal_food_book-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "halal_food_book-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* halal_food_book-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "halal_food_book-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		58F34139526140B5AD37E08C /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB585CE351B042B49243CCA5 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		01066D02D2DD4C5F9B3AD7FA /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		757A408D4C064C9A8FCB4498 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B3FBE12F803F4AEEB841CEAE /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6D19E0F51237475EB6E5E85D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		48BF47B0166B44F89FD5B2C9 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5DD26AE84341481B88551AAB /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0D9E7BD47A484C36AF5782A1 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		47B2BD145D1B480D91411EEB /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BC83A5E1E54547AC9DE9533D /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9728E996D1D64F4BAF254649 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BCC0DBE6B93C4A2AA4E01F7C /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		62DCDD7385C045D4A7260E22 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FD945F247670444290452CCC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		938E478815F94485B960CB81 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		43645329654D4CECB68B4155 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F4B375B70A14C25B915E5D3 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2F7C086CD1C46C9A9B7F82D /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C33A842741A145D58892E950 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C094BA9B93EA40FFBBAC6462 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50C081640C174022BBA8C116 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05C8823AFFA949CFB1F8AD43 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A904E6F62BD6442BABCBDD56 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		258D0CA2D7894469B6222842 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04D3683B9DDF44358E07F62E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16DBF0D1634549EE92C4D06F /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F3FA768CC5C45668916562B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D914136F3BE4295AAF4E125 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB1217E987074AF29BAE93C2 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84974642D37B4A4F91F5615E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED2CA0D210844B02A1AF9AC3 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +116,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* food_bookTests */ = {
+		00E356EF1AD99517003FC87E /* halal_food_bookTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* food_bookTests.m */,
+				00E356F21AD99517003FC87E /* halal_food_bookTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = food_bookTests;
+			path = halal_food_bookTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -133,7 +133,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* food_book */ = {
+		13B07FAE1A68108700A75B9A /* halal_food_book */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -144,7 +144,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = food_book;
+			name = halal_food_book;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -166,12 +166,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* food_book */,
+				13B07FAE1A68108700A75B9A /* halal_food_book */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* food_bookTests */,
+				00E356EF1AD99517003FC87E /* halal_food_bookTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				07D9B50D4187420EA4797CB9 /* Resources */,
+				767B77851F1F455298DC9928 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -181,33 +181,33 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* food_book.app */,
-				00E356EE1AD99517003FC87E /* food_bookTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* food_book-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* food_book-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* halal_food_book.app */,
+				00E356EE1AD99517003FC87E /* halal_food_bookTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* halal_food_book-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* halal_food_book-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07D9B50D4187420EA4797CB9 /* Resources */ = {
+		767B77851F1F455298DC9928 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				58F34139526140B5AD37E08C /* AntDesign.ttf */,
-				DB585CE351B042B49243CCA5 /* Entypo.ttf */,
-				01066D02D2DD4C5F9B3AD7FA /* EvilIcons.ttf */,
-				757A408D4C064C9A8FCB4498 /* Feather.ttf */,
-				B3FBE12F803F4AEEB841CEAE /* FontAwesome.ttf */,
-				6D19E0F51237475EB6E5E85D /* FontAwesome5_Brands.ttf */,
-				48BF47B0166B44F89FD5B2C9 /* FontAwesome5_Regular.ttf */,
-				5DD26AE84341481B88551AAB /* FontAwesome5_Solid.ttf */,
-				0D9E7BD47A484C36AF5782A1 /* Fontisto.ttf */,
-				47B2BD145D1B480D91411EEB /* Foundation.ttf */,
-				BC83A5E1E54547AC9DE9533D /* Ionicons.ttf */,
-				9728E996D1D64F4BAF254649 /* MaterialCommunityIcons.ttf */,
-				BCC0DBE6B93C4A2AA4E01F7C /* MaterialIcons.ttf */,
-				62DCDD7385C045D4A7260E22 /* Octicons.ttf */,
-				FD945F247670444290452CCC /* SimpleLineIcons.ttf */,
-				938E478815F94485B960CB81 /* Zocial.ttf */,
+				43645329654D4CECB68B4155 /* AntDesign.ttf */,
+				7F4B375B70A14C25B915E5D3 /* Entypo.ttf */,
+				B2F7C086CD1C46C9A9B7F82D /* EvilIcons.ttf */,
+				C33A842741A145D58892E950 /* Feather.ttf */,
+				C094BA9B93EA40FFBBAC6462 /* FontAwesome.ttf */,
+				50C081640C174022BBA8C116 /* FontAwesome5_Brands.ttf */,
+				05C8823AFFA949CFB1F8AD43 /* FontAwesome5_Regular.ttf */,
+				A904E6F62BD6442BABCBDD56 /* FontAwesome5_Solid.ttf */,
+				258D0CA2D7894469B6222842 /* Fontisto.ttf */,
+				04D3683B9DDF44358E07F62E /* Foundation.ttf */,
+				16DBF0D1634549EE92C4D06F /* Ionicons.ttf */,
+				3F3FA768CC5C45668916562B /* MaterialCommunityIcons.ttf */,
+				7D914136F3BE4295AAF4E125 /* MaterialIcons.ttf */,
+				FB1217E987074AF29BAE93C2 /* Octicons.ttf */,
+				84974642D37B4A4F91F5615E /* SimpleLineIcons.ttf */,
+				ED2CA0D210844B02A1AF9AC3 /* Zocial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -216,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* food_bookTests */ = {
+		00E356ED1AD99517003FC87E /* halal_food_bookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "food_bookTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "halal_food_bookTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -229,14 +229,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = food_bookTests;
-			productName = food_bookTests;
-			productReference = 00E356EE1AD99517003FC87E /* food_bookTests.xctest */;
+			name = halal_food_bookTests;
+			productName = halal_food_bookTests;
+			productReference = 00E356EE1AD99517003FC87E /* halal_food_bookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* food_book */ = {
+		13B07F861A680F5B00A75B9A /* halal_food_book */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "food_book" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "halal_food_book" */;
 			buildPhases = (
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -248,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = food_book;
-			productName = "food_book";
-			productReference = 13B07F961A680F5B00A75B9A /* food_book.app */;
+			name = halal_food_book;
+			productName = "halal_food_book";
+			productReference = 13B07F961A680F5B00A75B9A /* halal_food_book.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* food_book-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* halal_food_book-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "food_book-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "halal_food_book-tvOS" */;
 			buildPhases = (
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
@@ -267,14 +267,14 @@
 			);
 			dependencies = (
 			);
-			name = "food_book-tvOS";
-			productName = "food_book-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* food_book-tvOS.app */;
+			name = "halal_food_book-tvOS";
+			productName = "halal_food_book-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* halal_food_book-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* food_book-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* halal_food_book-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "food_book-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "halal_food_book-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -285,9 +285,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "food_book-tvOSTests";
-			productName = "food_book-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* food_book-tvOSTests.xctest */;
+			name = "halal_food_book-tvOSTests";
+			productName = "halal_food_book-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* halal_food_book-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -314,7 +314,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "food_book" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "halal_food_book" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -327,10 +327,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* food_book */,
-				00E356ED1AD99517003FC87E /* food_bookTests */,
-				2D02E47A1E0B4A5D006451C7 /* food_book-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* food_book-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* halal_food_book */,
+				00E356ED1AD99517003FC87E /* halal_food_bookTests */,
+				2D02E47A1E0B4A5D006451C7 /* halal_food_book-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* halal_food_book-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -349,22 +349,22 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				8DABA6B2FEF24332958E3FC1 /* AntDesign.ttf in Resources */,
-				62D23CDCD90941159D593607 /* Entypo.ttf in Resources */,
-				1060EA66C01F4EC2ADCFE664 /* EvilIcons.ttf in Resources */,
-				970BB00B22E14193AF34021C /* Feather.ttf in Resources */,
-				F42E17B5D9404087ABE29366 /* FontAwesome.ttf in Resources */,
-				55567E3BA6CC47C985929DAA /* FontAwesome5_Brands.ttf in Resources */,
-				D8EFE5217A87498B9E61AE5F /* FontAwesome5_Regular.ttf in Resources */,
-				CD1B339D808C4AB4BAA37215 /* FontAwesome5_Solid.ttf in Resources */,
-				81189C688E344AEB841E5FB3 /* Fontisto.ttf in Resources */,
-				7D908DC546BA4508AC0C03C9 /* Foundation.ttf in Resources */,
-				160E920CCBE04069B4EF4566 /* Ionicons.ttf in Resources */,
-				05184BD7169F4022A04805B8 /* MaterialCommunityIcons.ttf in Resources */,
-				D11121C9BB184ADB8D11C57A /* MaterialIcons.ttf in Resources */,
-				C77980BE15374B3AA4DB793D /* Octicons.ttf in Resources */,
-				FAE0AF673404427A86C7D153 /* SimpleLineIcons.ttf in Resources */,
-				FBBC172A89594C9CBC85B54E /* Zocial.ttf in Resources */,
+				FB45998BF640498B81A3FBBD /* AntDesign.ttf in Resources */,
+				01122A1B53084F1EB2A5AABF /* Entypo.ttf in Resources */,
+				96301B20C29F437CB9B2499D /* EvilIcons.ttf in Resources */,
+				7830AABA81DF4AA99BEEB4F0 /* Feather.ttf in Resources */,
+				6CD3BE8321B64F93AD4A0B34 /* FontAwesome.ttf in Resources */,
+				E442D8EAB6C04CBAA3064168 /* FontAwesome5_Brands.ttf in Resources */,
+				B64213F996554A19B7C1084C /* FontAwesome5_Regular.ttf in Resources */,
+				DE04A0AF354F435D9BFCC0F6 /* FontAwesome5_Solid.ttf in Resources */,
+				8E65F75927094C4C8CD50577 /* Fontisto.ttf in Resources */,
+				C40AD9E64FF84708A9F98C0E /* Foundation.ttf in Resources */,
+				5F3F798A4EBD4C6C87FE854E /* Ionicons.ttf in Resources */,
+				E9C4080CC1B747E1BACED27A /* MaterialCommunityIcons.ttf in Resources */,
+				85FBDC2E8CEF4781BEEC82C7 /* MaterialIcons.ttf in Resources */,
+				71857D73936C4EEA8C249A4B /* Octicons.ttf in Resources */,
+				DDB9FD99A21743D883473DDE /* SimpleLineIcons.ttf in Resources */,
+				7C5AFDC879854D9F958BA254 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* food_bookTests.m in Sources */,
+				00E356F31AD99517003FC87E /* halal_food_bookTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* food_bookTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* halal_food_bookTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,12 +494,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* food_book */;
+			target = 13B07F861A680F5B00A75B9A /* halal_food_book */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* food_book-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* halal_food_book-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,7 +511,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = food_book;
+			path = halal_food_book;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -525,7 +525,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = food_bookTests/Info.plist;
+				INFOPLIST_FILE = halal_food_bookTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -535,7 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food_book.app/food_book";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/halal_food_book.app/halal_food_book";
 			};
 			name = Debug;
 		};
@@ -544,7 +544,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = food_bookTests/Info.plist;
+				INFOPLIST_FILE = halal_food_bookTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -554,7 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food_book.app/food_book";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/halal_food_book.app/halal_food_book";
 			};
 			name = Release;
 		};
@@ -564,7 +564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = food_book/Info.plist;
+				INFOPLIST_FILE = halal_food_book/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -572,7 +572,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = food_book;
+				PRODUCT_NAME = halal_food_book;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -582,7 +582,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = food_book/Info.plist;
+				INFOPLIST_FILE = halal_food_book/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -590,7 +590,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = food_book;
+				PRODUCT_NAME = halal_food_book;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -607,14 +607,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "food_book-tvOS/Info.plist";
+				INFOPLIST_FILE = "halal_food_book-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.food_book-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.halal_food_book-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -634,14 +634,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "food_book-tvOS/Info.plist";
+				INFOPLIST_FILE = "halal_food_book-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.food_book-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.halal_food_book-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -660,17 +660,17 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "food_book-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "halal_food_book-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.food_book-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.halal_food_book-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food_book-tvOS.app/food_book-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/halal_food_book-tvOS.app/halal_food_book-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -686,17 +686,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "food_book-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "halal_food_book-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.food_book-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.halal_food_book-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food_book-tvOS.app/food_book-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/halal_food_book-tvOS.app/halal_food_book-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -803,7 +803,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "food_bookTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "halal_food_bookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -812,7 +812,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "food_book" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "halal_food_book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -821,7 +821,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "food_book-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "halal_food_book-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -830,7 +830,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "food_book-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "halal_food_book-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -839,7 +839,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "food_book" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "halal_food_book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
