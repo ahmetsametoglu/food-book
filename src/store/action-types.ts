@@ -1,1 +1,1 @@
-export type ActionType = 'ShowLoading' | 'HideLoading';
+export type ActionType = 'ShowLoading' | 'HideLoading' | 'ScanProduct';
