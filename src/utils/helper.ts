@@ -8,4 +8,5 @@ export const colors = {
   dark: '#202A4F',
   solid: '#E8D784',
   loadingBackgroundColor: '#B3E5C8',
+  white: '#ffff',
 };
