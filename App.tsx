@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import {StatusBar, View} from 'react-native';
-import Home from './src/screens/home';
 import SplashScreen from './src/components/splash-screen';
 import ReduxContextProvider from './src/context/redux-context';
 import Loading from './src/components/hocs/loading';
+import StackNav from './src/navigation/stack-nav';
 
 const App = () => {
   const splashScreen = <SplashScreen />;
@@ -11,7 +11,7 @@ const App = () => {
   const homeContent = (
     <ReduxContextProvider>
       <Loading>
-        <Home />
+        <StackNav />
       </Loading>
     </ReduxContextProvider>
   );
