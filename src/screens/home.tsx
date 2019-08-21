@@ -1,20 +1,20 @@
 import React, {Fragment, useState} from 'react';
-import {View, Text, StyleSheet, ViewStyle, TouchableHighlight} from 'react-native';
+import {Text, StyleSheet, ViewStyle, TouchableHighlight} from 'react-native';
 import {colors} from '../utils/helper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Entypo from 'react-native-vector-icons/Entypo';
 import ScanBarcode from '../components/scan-barcode';
 import {useReduxContextValue} from '../context/redux-context';
+import ScanResult from '../components/scan-result';
 
 const Home = () => {
   console.log('[Home Screen]: init');
   const [openScanner, setOpenScanner] = useState(false);
-
   const {services, store} = useReduxContextValue();
   const {productState} = store;
-  console.log('productState:', productState);
 
   const handleOpenScanner = () => {
+    console.log('handleOpenScanner');
+
     setOpenScanner(true);
   };
 
@@ -58,61 +58,12 @@ const Home = () => {
     </TouchableHighlight>
   );
 
-  const reScanButton = (
-    <TouchableHighlight
-      underlayColor={colors.solid}
-      onPress={handleOpenScanner}
-      style={{flexDirection: 'row', width: '100%'}}>
-      <View style={[styles.actionButton, {backgroundColor: colors.primary}]}>
-        <MaterialCommunityIcons name="barcode-scan" size={30} color={colors.white} />
-        <Text style={{color: colors.white, fontSize: 20, marginLeft: 20}}>Scan New Product</Text>
-      </View>
-    </TouchableHighlight>
-  );
-
-  const addButton = (
-    <TouchableHighlight
-      underlayColor={colors.solid}
-      onPress={handleAddProduct}
-      style={{flexDirection: 'row', width: '100%'}}>
-      <View style={[styles.actionButton, {backgroundColor: colors.secondary}]}>
-        <Entypo name="add-to-list" size={30} color={colors.white} />
-        <Text style={{color: colors.white, fontSize: 20, marginLeft: 20}}>Add This Product</Text>
-      </View>
-    </TouchableHighlight>
-  );
-
-  const productInfo = productState.lastScannedProduct ? (
-    <Fragment>
-      <Text style={{color: colors.success, fontSize: 34}}>Product Found</Text>
-      <Text style={{color: colors.primary, fontSize: 30}}>
-        {productState.lastScannedProduct.barcode}
-      </Text>
-    </Fragment>
-  ) : null;
-  const notFoundInfo = (
-    <Fragment>
-      <Text style={{color: colors.error, fontSize: 34}}>Product Not Found</Text>
-      <Text style={{color: colors.error, fontSize: 30}}>{productState.lastScannedBarcode}</Text>
-    </Fragment>
-  );
-
-  const scanResult = (
-    <View style={styles.centralize}>
-      <View style={[styles.centralize, {width: '100%', backgroundColor: colors.light}]}>
-        {!!productState.lastScannedProduct ? productInfo : notFoundInfo}
-      </View>
-      {!productState.lastScannedProduct && addButton}
-      {reScanButton}
-    </View>
-  );
-
   let view = defaultView;
 
   if (openScanner) {
     view = <ScanBarcode handleReadBarcode={handleReadBarcode} />;
   } else if (productState.lastScannedBarcode) {
-    view = scanResult;
+    view = <ScanResult onAddProduct={handleAddProduct} onOpenScanner={handleOpenScanner} />;
   }
 
   return view;
