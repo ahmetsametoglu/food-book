@@ -10,12 +10,10 @@ type Props = {
 const Loading = (props: Props) => {
   const {showLoading, loadingText} = useReduxContextValue().store.appState;
 
-  if (!showLoading) {
-    return <Fragment>{props.children}</Fragment>;
-  } else {
-    return (
-      <Fragment>
-        {props.children}
+  return (
+    <Fragment>
+      {props.children}
+      {!!showLoading && (
         <View
           style={{
             zIndex: 50,
@@ -34,9 +32,9 @@ const Loading = (props: Props) => {
             </Text>
           )}
         </View>
-      </Fragment>
-    );
-  }
+      )}
+    </Fragment>
+  );
 };
 
 export default Loading;
