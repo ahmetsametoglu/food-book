@@ -1,16 +1,26 @@
-import React, {Fragment, useState} from 'react';
+import React, {Fragment, useState, useEffect} from 'react';
 import {Text, StyleSheet, ViewStyle, TouchableHighlight} from 'react-native';
 import {colors} from '../utils/helper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import ScanBarcode from '../components/scan-barcode';
 import {useReduxContextValue} from '../context/redux-context';
 import ScanResult from '../components/scan-result';
+import {NavigationPages} from '../navigation/navigation-pages';
+import {NavigationProp} from '../models/props.model';
+import {useNavigationContextValue} from '../context/navigation-context';
 
-const Home = () => {
+type Props = {} & NavigationProp;
+
+const Home = (props: Props) => {
   console.log('[Home Screen]: init');
+  const {setNavigation, navigation} = useNavigationContextValue();
   const [openScanner, setOpenScanner] = useState(false);
   const {services, store} = useReduxContextValue();
   const {productState} = store;
+
+  useEffect(() => {
+    setNavigation(props.navigation);
+  }, []);
 
   const handleOpenScanner = () => {
     console.log('handleOpenScanner');
@@ -20,11 +30,13 @@ const Home = () => {
 
   const handleAddProduct = () => {
     if (productState.lastScannedBarcode) {
-      services.productService.addProduct({
-        barcode: productState.lastScannedBarcode,
-        ingredientImageURL: 'ingredientImageURL',
-        productImageURL: 'productImageURL',
-      });
+      navigation.push(NavigationPages.AddProduct);
+
+      // services.productService.addProduct({
+      //   barcode: productState.lastScannedBarcode,
+      //   ingredientImageURL: 'ingredientImageURL',
+      //   productImageURL: 'productImageURL',
+      // });
     }
   };
 
