@@ -1,7 +1,7 @@
 import React, {Fragment, ReactChild} from 'react';
 import {View, Text, ActivityIndicator} from 'react-native';
 import {useReduxContextValue} from '../../context/redux-context';
-import {colors} from '../../utils/helper';
+import {colors} from '../../utils/helper-style';
 
 type Props = {
   children: ReactChild;

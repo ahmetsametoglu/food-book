@@ -1,6 +1,6 @@
 import React, {ReactChild, Fragment} from 'react';
 import {View, Text, TouchableHighlight, StyleSheet, ViewStyle} from 'react-native';
-import {colors} from '../utils/helper';
+import {colors} from '../utils/helper-style';
 import {Color} from 'csstype';
 import Entypo from 'react-native-vector-icons/Entypo';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';

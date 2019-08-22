@@ -1,5 +1,5 @@
 import {createAppContainer, createStackNavigator} from 'react-navigation';
-import {colors} from '../utils/helper';
+import {colors} from '../utils/helper-style';
 import Home from '../screens/home';
 import AddProduct from '../screens/add-product';
 

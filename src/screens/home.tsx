@@ -1,6 +1,6 @@
 import React, {Fragment, useState, useEffect} from 'react';
 import {Text, StyleSheet, ViewStyle, TouchableHighlight} from 'react-native';
-import {colors} from '../utils/helper';
+import {colors} from '../utils/helper-style';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import ScanBarcode from '../components/scan-barcode';
 import {useReduxContextValue} from '../context/redux-context';
