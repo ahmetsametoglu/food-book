@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {StatusBar, View} from 'react-native';
-import SplashScreen from './src/components/splash-screen';
+import SplashScreen from './src/screens/splash-screen';
 import ReduxContextProvider from './src/context/redux-context';
 import Loading from './src/components/hocs/loading';
 import StackNav from './src/navigation/stack-nav';
