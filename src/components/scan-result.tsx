@@ -5,6 +5,7 @@ import {Color} from 'csstype';
 import Entypo from 'react-native-vector-icons/Entypo';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useReduxContextValue} from '../context/redux-context';
+import ProductInfo from './product-info';
 
 type Props = {
   onOpenScanner: Function;
@@ -32,15 +33,6 @@ const ScanResult = (props: Props) => {
     </ActionButton>
   );
 
-  const productInfo = productState.lastScannedProduct ? (
-    <Fragment>
-      <Text style={{color: colors.success, fontSize: 34}}>Product Found</Text>
-      <Text style={{color: colors.primary, fontSize: 30}}>
-        {productState.lastScannedProduct.barcode}
-      </Text>
-    </Fragment>
-  ) : null;
-
   const notFoundInfo = (
     <Fragment>
       <Text style={{color: colors.error, fontSize: 34}}>Product Not Found</Text>
@@ -51,7 +43,11 @@ const ScanResult = (props: Props) => {
   return (
     <View style={styles.centralize}>
       <View style={[styles.centralize, {width: '100%', backgroundColor: colors.light}]}>
-        {!!productState.lastScannedProduct ? productInfo : notFoundInfo}
+        {!!productState.lastScannedProduct ? (
+          <ProductInfo product={productState.lastScannedProduct} />
+        ) : (
+          notFoundInfo
+        )}
       </View>
       {!productState.lastScannedProduct && addButton}
       {reScanButton}
