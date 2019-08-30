@@ -27,12 +27,13 @@ target 'halal_food_book' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
-
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
 
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+  pod 'RNFBFirestore', :path => '../node_modules/@react-native-firebase/firestore'
+
+  pod 'RNFBStorage', :path => '../node_modules/@react-native-firebase/storage'
 
   target 'halal_food_bookTests' do
     inherit! :search_paths
