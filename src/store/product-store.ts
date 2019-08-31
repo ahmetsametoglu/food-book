@@ -1,5 +1,5 @@
-import {CollectionReference} from 'react-native-firebase/firestore';
-import {firestore} from 'react-native-firebase';
+import {firebaseHelper} from './../utils/helper-firebase';
+import firestore, {Firestore} from '@react-native-firebase/firestore';
 import {Product} from './../models/product';
 import {ActionType} from './action-types';
 import {Reducer, Dispatch} from 'react';
@@ -20,43 +20,53 @@ type ProductPayloadType = {
 };
 
 export class ProductService {
-  products: CollectionReference;
+  productsRef: Firestore.CollectionReference;
 
   constructor(private dispatch: Dispatch<ProductActionType>) {
-    this.products = firestore().collection('products');
+    this.productsRef = firestore().collection('products');
   }
 
   async getProductWithBarcode(barcode: string): Promise<void> {
-    const result = await this.products.doc(barcode).get();
-    console.log('result:', result);
-
-    const product = result.exists ? <Product>{_id: result.id, ...result.data()} : undefined;
-    console.log('getProductWithBarcode:', product);
-
-    this.dispatch({
-      type: 'ScanProduct',
-      payload: {
-        lastScannedBarcode: barcode,
-        lastScannedProduct: product,
-      },
-    });
+    try {
+      const result = await this.productsRef.doc(barcode).get();
+      const product =
+        !!result && result.exists ? <Product>{_id: result.id, ...result.data()} : undefined;
+      this.dispatch({
+        type: 'ScanProduct',
+        payload: {
+          lastScannedBarcode: barcode,
+          lastScannedProduct: product,
+        },
+      });
+    } catch (error) {
+      console.error(error);
+    }
   }
 
-  async addProduct(data: {barcode: string; productImageURL: string; ingredientImageURL: string}) {
-    const result = await this.products.doc(data.barcode).set({
+  async addProduct(data: {
+    barcode: string;
+    productImageURL: string;
+    ingredientImageURL: string;
+    ingredients: string;
+  }) {
+    const imageUpload1 = firebaseHelper.uploadImage(data.productImageURL, `p-${data.barcode}`);
+    const imageUpload2 = firebaseHelper.uploadImage(data.ingredientImageURL, `i-${data.barcode}`);
+    const [productImageURL, ingredientImageURL] = await Promise.all([imageUpload1, imageUpload2]);
+
+    data.productImageURL = productImageURL;
+    data.ingredientImageURL = ingredientImageURL;
+    const result = await this.productsRef.doc(data.barcode).set({
       _id: data.barcode,
       ...data,
       description: '',
       isHalal: undefined,
       verifiedBy: undefined,
     } as Product);
-
-    console.log(result);
   }
 }
 
 export const initialProductState: ProductStateType = {
-  lastScannedBarcode: '',
+  lastScannedBarcode: 'test',
   lastScannedProduct: undefined,
 };
 
