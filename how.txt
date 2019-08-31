@@ -1,0 +1,2 @@
+ 
+ react-native upgrade --legacy true  #for recreating mobile folders
