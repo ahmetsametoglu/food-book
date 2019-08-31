@@ -1,6 +1,8 @@
+import {UserService} from './../store/user-store';
 import storage from '@react-native-firebase/storage';
 import vision from '@react-native-firebase/ml-vision';
 import auth from '@react-native-firebase/auth';
+import {User} from '../models/user';
 
 const uploadImage = (path: string, imageName: string): Promise<string> => {
   return new Promise((res, rej) => {
@@ -28,14 +30,24 @@ const recognizeText = async (imagePath: string) => {
   }
 };
 
-const subscribeAuth = () => {
+const subscribeAuth = (userService: UserService) => {
   const unSubscribe = auth().onAuthStateChanged(res => {
     console.log('onAuthStateChanged:', res);
+    const user: User | undefined = !res
+      ? undefined
+      : {
+          _id: res.uid,
+          email: !!res.email ? res.email : '',
+          emailVerified: res.emailVerified,
+          isAnonymous: res.isAnonymous,
+        };
+    userService.setUser(user);
   });
   return unSubscribe;
 };
 
 const signInAnonymously = async () => {
+  console.log('signInAnonymously...');
   try {
     await auth()
       .signInAnonymously()
