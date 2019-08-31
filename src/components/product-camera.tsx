@@ -2,23 +2,28 @@ import React, {useState, useRef} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, ViewStyle, Image, FlexStyle} from 'react-native';
 import {RNCamera} from 'react-native-camera';
 import {colors, mainStyles} from '../utils/helper-style';
+import {firebaseHelper} from '../utils/helper-firebase';
 
 type Props = {
   description: string;
   handleImagePath: Function;
   isCameraActive: boolean;
+  enableRecognizeText: boolean;
 };
 const ProductCamera = (props: Props) => {
   const [takenImagePath, setTakenImagePath] = useState('');
   const camera = useRef({} as RNCamera);
 
-  const handleOkButton = () => {
-    console.log('click OK');
-    props.handleImagePath(takenImagePath);
+  const handleOkButton = async () => {
+    if (props.enableRecognizeText) {
+      const text = await firebaseHelper.recognizeText(takenImagePath);
+      console.log(text);
+    } else {
+      props.handleImagePath(takenImagePath);
+    }
   };
 
   const handleRefreshButton = () => {
-    console.log('click refresh button');
     setTakenImagePath('');
   };
 
@@ -30,9 +35,8 @@ const ProductCamera = (props: Props) => {
             style={{...mainStyles.view_centralize_col, width: '100%'}}
             onPress={() => {
               camera.current
-                .takePictureAsync({fixOrientation: true, width: 400})
+                .takePictureAsync({fixOrientation: true, width: 800, quality: 0.8})
                 .then((photo: any) => {
-                  console.log('photo:', photo);
                   if (!!photo) {
                     setTakenImagePath(photo.uri);
                   }
