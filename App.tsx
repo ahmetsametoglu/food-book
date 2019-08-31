@@ -2,19 +2,17 @@ import React, {useState, useEffect} from 'react';
 import {StatusBar, View} from 'react-native';
 import SplashScreen from './src/screens/splash-screen';
 import ReduxContextProvider from './src/context/redux-context';
-import Loading from './src/components/hocs/loading';
-import StackNav from './src/navigation/stack-nav';
 import NavigationContextProvider from './src/context/navigation-context';
+import MainScreen from './src/screens/main-screen';
 
 const App = () => {
+  console.log('[App]: init');
   const splashScreen = <SplashScreen />;
 
   const homeContent = (
     <NavigationContextProvider>
       <ReduxContextProvider>
-        <Loading>
-          <StackNav />
-        </Loading>
+        <MainScreen></MainScreen>
       </ReduxContextProvider>
     </NavigationContextProvider>
   );
@@ -22,6 +20,7 @@ const App = () => {
   const [mainContent, setMainContent] = useState(splashScreen);
 
   useEffect(() => {
+    console.log('[App]: useEffect');
     setTimeout(() => {
       setMainContent(homeContent);
     }, 1000);
