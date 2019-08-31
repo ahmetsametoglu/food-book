@@ -31,29 +31,21 @@ const Home = (props: Props) => {
   const handleAddProduct = () => {
     if (productState.lastScannedBarcode) {
       navigation.push(NavigationPages.AddProduct);
-
-      // services.productService.addProduct({
-      //   barcode: productState.lastScannedBarcode,
-      //   ingredientImageURL: 'ingredientImageURL',
-      //   productImageURL: 'productImageURL',
-      // });
     }
   };
 
   const handleReadBarcode = async (code: string) => {
     setOpenScanner(false);
     console.log('barcode:', code);
-    if (!!code) {
-      services.appService.showLoading('product searching...');
-      services.productService
-        .getProductWithBarcode(code)
-        .then(_ => {
-          services.appService.hideLoading();
-        })
-        .catch(_ => {
-          services.appService.hideLoading();
-        });
-    }
+    services.appService.showLoading('product searching...');
+    services.productService
+      .getProductWithBarcode(code)
+      .then(_ => {
+        services.appService.hideLoading();
+      })
+      .catch(_ => {
+        services.appService.hideLoading();
+      });
   };
 
   const defaultView = (
